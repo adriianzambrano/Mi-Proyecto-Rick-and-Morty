@@ -1,0 +1,42 @@
+
+
+.divCard{
+
+    margin: 20px;
+    width: 250px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(134, 253, 132, 0.492);
+    position: relative;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+    transition: all 400ms;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: rgba(63, 203, 86, 0.675);;
+}
+
+
+.botonX{
+
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background-color: rgba(255, 0, 0, 0.596);;
+    color: rgba(0, 0, 0, 0.73);
+    border: 0ch;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.botonX:hover{
+
+    background-color: rgba(63, 203, 86, 0.675);;
+}
+

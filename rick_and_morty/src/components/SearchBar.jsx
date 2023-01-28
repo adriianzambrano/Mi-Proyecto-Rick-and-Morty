@@ -1,8 +1,10 @@
+import estiloSearch from './estilos/SearchBar.module.css'
+
 export default function SearchBar(props) {
    return (
-      <div>
-         <input type='search' />
-         <button onClick={()=>{props.onSearch(5)}}> Buscar </button>
+      <div className={estiloSearch.nav}>
+         <input type='search' className={estiloSearch.input} />
+         <button onClick={()=>{props.onSearch(5)}} className={estiloSearch.buscar}> Buscar </button>
       </div>
    );
 }

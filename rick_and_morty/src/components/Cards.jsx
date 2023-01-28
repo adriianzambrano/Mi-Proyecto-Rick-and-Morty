@@ -1,9 +1,10 @@
 import Card from './Card.jsx';
+import estiloCards from './estilos/Cards.module.css'
 
 export default function Cards(props) {
    const { characters } = props;
    return (
-      <div>
+      <div className={estiloCards.listaCards}>
          {
             characters.map(({name, species, gender, image}, index)=>{
                return <Card

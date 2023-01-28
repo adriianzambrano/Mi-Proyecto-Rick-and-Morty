@@ -1,0 +1,32 @@
+.nav{
+    
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.input{
+
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border-color:rgba(63, 203, 86, 0.675); ;
+    margin: 10px;
+
+}
+
+.buscar{
+
+    background-color: rgba(63, 203, 86, 0.675);
+    height: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: rgb(3, 255, 20);
+    transition: 0.5s;
+    
+}
+.buscar:hover{
+
+    background-color: rgb(149, 238, 48);
+    
+}
