@@ -1,21 +1,22 @@
+import React from 'react';
 import Card from './Card.jsx';
 import estiloCards from './estilos/Cards.module.css'
 
-export default function Cards(props) {
-   const { characters } = props;
+export default function Cards({characters, onClose}) {
    return (
       <div className={estiloCards.listaCards}>
          {
-            characters.map(({name, species, gender, image}, index)=>{
-               return <Card
-               key={index}
-               name={name}
-               species={species}
-               gender={gender}
-               image={image}
-               onClose={() => window.alert('Emulamos que se cierra la card')}
-               
+            characters.map(({id , name, species, gender, image})=>{
+               return ( 
+               <Card
+                  key={id}
+                  name={name}
+                  species={species}
+                  gender={gender}
+                  image={image}
+                  onClose={()=> onClose(id)}
             />
+            )
 
             })
          }

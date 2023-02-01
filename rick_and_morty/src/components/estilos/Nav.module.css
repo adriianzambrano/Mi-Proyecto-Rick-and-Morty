@@ -1,0 +1,55 @@
+.navbar{
+    background-color: rgba(92, 248, 78, 0.17);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.divBotonHome{
+
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+
+}.btnHOME{
+
+    background-color: rgba(63, 203, 86, 0.675);
+    height: 30px;
+    width: 70px;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: rgb(3, 255, 20);
+    transition: all 400ms ease;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+
+}.btnHOME:hover{
+
+    background-color: rgb(149, 238, 48);
+    box-shadow: 0px 0px 20px rgba(80, 252, 0, 0.818);
+    transform: translateY(-3%);
+  
+}
+
+.divBotonFiltrar{
+    
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    
+}.btnFiltrar{
+
+    background-color: rgba(63, 203, 86, 0.675);
+    height: 30px;
+    width: 70px;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: rgb(3, 255, 20);
+    transition: all 400ms ease;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}.btnFiltrar:hover{
+
+    background-color: rgb(149, 238, 48);
+    box-shadow: 0px 0px 20px rgba(80, 252, 0, 0.818);
+    transform: translateY(-3%);
+    
+}
