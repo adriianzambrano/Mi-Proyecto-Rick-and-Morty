@@ -1,0 +1,41 @@
+.about{
+    display: flex;
+    justify-content: center;
+    margin: 200px;
+    background-color: rgba(25, 245, 18, 0.522);
+    border-radius: 10px;
+}
+
+.foto{
+    
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 255, 42, 0.675);
+    margin: 50px;
+
+}
+
+.txt{
+
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 10px rgb(0, 255, 42);
+}
+
+.atras{ 
+    margin: 50px;
+    height: 30px;
+    width: 50px;
+    background-color: rgba(255, 0, 217, 0.64);;
+    color: rgb(0, 0, 0);
+    border: 0ch;
+    border-radius: 10px;
+    transition: all 400ms ease; 
+    box-shadow: 0px 0px 5px 5px rgba(19, 255, 2, 0.659);
+    
+}
+.atras:hover{
+
+    background-color: rgba(7, 245, 47, 0.675);;
+    box-shadow: 0px 0px 10px 10px rgba(13, 229, 28, 0.818);
+}

@@ -1,7 +1,5 @@
-
-.listaCards{
-
+.login{
     display: flex;
+    margin: 200px;
     justify-content: center;
-    margin: 50px;
 }

@@ -2,6 +2,10 @@ import './App.css'
 import Cards from './components/Cards.jsx'
 import Nav from './components/Nav.jsx'
 import { useState } from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Login from './components/Login';
+import About from './components/About';
+import Detail from './components/Detail';
 
 function App () {
   const [characters, setCharacters] = useState([])
@@ -36,16 +40,20 @@ function App () {
  }
 
  
-  return (
+  return ( 
     <div className="App">
-      <div>
-          <Nav onSearch={onSearch}/>
+          <div>
+              <Nav onSearch={onSearch}/>
+          </div>
+        <Routes>
+            <Route path='/' element={<Login/>} /> 
+            <Route path='/home' element={<Cards onClose={onClose} characters={characters}/>}/>
+            <Route path='/about' element={<About/>} /> 
+            <Route path='/detail/:detailId' element={<Detail/>} /> 
+  
+      
+        </Routes>
       </div>
-      <div>
-        <Cards
-            onClose={onClose} characters={characters}/>
-      </div>
-    </div>
   )
 }
 
