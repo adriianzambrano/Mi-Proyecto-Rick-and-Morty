@@ -11,18 +11,18 @@
     justify-content: center;
     margin: 40px;
 
-}.btnHOME{
+}.btnCerrarSeccion{
 
     background-color: rgba(63, 203, 86, 0.675);
     height: 30px;
-    width: 70px;
+    width: 130px;
     margin: 10px;
     border-radius: 10px;
     border-color: rgb(3, 255, 20);
     transition: all 400ms ease;
     box-shadow: 0px 0px 10px rgb(0, 0, 0);
 
-}.btnHOME:hover{
+}.btnCerrarSeccion:hover{
 
     background-color: rgb(149, 238, 48);
     box-shadow: 0px 0px 20px rgba(80, 252, 0, 0.818);
@@ -30,23 +30,23 @@
   
 }
 
-.divBotonFiltrar{
+.divBotonAbout{
     
     display: flex;
     justify-content: center;
     margin: 40px;
     
-}.btnFiltrar{
+}.botonAbout{
 
     background-color: rgba(63, 203, 86, 0.675);
     height: 30px;
-    width: 70px;
+    width: 130px;
     margin: 10px;
     border-radius: 10px;
     border-color: rgb(3, 255, 20);
     transition: all 400ms ease;
     box-shadow: 0px 0px 10px rgb(0, 0, 0);
-}.btnFiltrar:hover{
+}.botonAbout:hover{
 
     background-color: rgb(149, 238, 48);
     box-shadow: 0px 0px 20px rgba(80, 252, 0, 0.818);

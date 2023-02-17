@@ -1,6 +1,6 @@
 import React from "react";
 import estilosAbout from './estilos/About.module.css'
-import fotoAbout from './Image/foto Perfil Twicth - copia.jpg'
+import fotoAbout from './Image/rickandMorty-About.png'
 import { Link } from "react-router-dom";
 
 export default function About (){
@@ -13,8 +13,8 @@ export default function About (){
                 </Link>
             </div>
             <ul>
-                <img className={estilosAbout.foto} src={fotoAbout} alt="Creador"/>
                 <p className={estilosAbout.txt}>👽 by Adrian Zambrano</p>
+                <img className={estilosAbout.foto} src={fotoAbout} alt="Creador"/>
             </ul>
         </div>
     )

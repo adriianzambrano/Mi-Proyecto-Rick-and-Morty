@@ -10,12 +10,12 @@ export default function Nav({onSearch}){
 
             <div className={estiloNav.divBotonHome}>
                 <Link exact to="/">
-                    <button className={estiloNav.btnHOME}> Salir </button>
+                    <button className={estiloNav.btnCerrarSeccion}> Cerrar Seccion </button>
                 </Link>
             </div>
-            <div className={estiloNav.divBotonFiltrar}>
+            <div className={estiloNav.divBotonAbout}>
                 <Link to="/about">
-                    <button className={ estiloNav.btnFiltrar}> About </button>
+                    <button className={ estiloNav.botonAbout}> About </button>
                 </Link>
             </div>
             <div>
