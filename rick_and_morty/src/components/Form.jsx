@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import estilosLogin from "./estilos/Form.module.css"
 import validate from './validate'
 
@@ -30,24 +29,24 @@ export default function Form (props) {
       <form onSubmit={(e)=>{handleSubmit(e)}}>
         
           <div className={estilosLogin.divUsers}>
-            <label> Usermane : </label>
+            <label> Usermane 🙎‍♂️ : </label>
             <input 
-              className={errors.username && estilosLogin.error}
+              className= {errors.username && estilosLogin.error}
               type="text" 
               name='username' 
-              placeholder='Escribe tu usuario'
+              placeholder='  Escribe tu usuario'
               onChange={(e)=> handleInputChange(e)}
               />
               <p className={estilosLogin.parrafosErr}>{errors.username}</p>
           </div>
 
-          <div className={estilosLogin.divInput}>
-            <label> Password : </label>
+          <div className={estilosLogin.divClave}>
+            <label> Password 🔑 : </label>
             <input 
               className={errors.password && estilosLogin.error}
               type="text" 
               name='password' 
-              placeholder='Escribe tu password' 
+              placeholder='  Escribe tu password' 
               onChange={(e)=> handleInputChange(e)} 
               />
               <p className={estilosLogin.parrafosErr}>{errors.password}</p>

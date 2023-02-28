@@ -1,10 +1,8 @@
 .login{
-    background-color: rgba(154, 255, 143, 0.375);
+    background-color: rgba(8, 254, 0, 0.625);
     position: absolute;
     border-radius: 5px;
-    border: 1px solid greenyellow;
     padding: 17px;
-    width: 380px;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -13,32 +11,45 @@
 
 .divUsers{
     margin: 30px;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+
 }
-.divInput{
+.divClave{
     margin: 30px;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+
 }
 .boton{
-
-    height: 35px;
-    width: 60px;
+    margin: 10px;
+    height: 40px;
+    width: 80px;
     background-color: rgba(255, 0, 238, 0.768);;
     color: rgba(0, 0, 0, 0.73);
     border: 0ch;
     border-radius: 10px;
     transition: all 400ms ease; 
     box-shadow: 0px 0px 5px 5px rgba(19, 255, 2, 0.659);
+    font-size: large;
+    font-weight: 550;
     
 }
 .boton:hover{
 
     background-color: rgba(7, 245, 47, 0.675);;
     box-shadow: 0px 0px 10px 10px rgba(13, 229, 28, 0.818);
+    color: rgba(255, 0, 238, 0.768);
 }
 
 .error{
-    color: red;
+    font-size: large;
+    color: rgb(245, 10, 10);
 
 }
 .parrafosErr{
-    color: red;
+    color: rgba(255, 0, 0, 0.926);
 }

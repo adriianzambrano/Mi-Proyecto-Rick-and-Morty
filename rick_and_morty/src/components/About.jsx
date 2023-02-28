@@ -7,14 +7,16 @@ export default function About (){
 
     return(
         <div className={estilosAbout.about}>
-            <div>
-                <Link to="/home">
-                    <button className={estilosAbout.atras}> Atras </button>
-                </Link>
-            </div>
+                <div className={estilosAbout.divAtras}>
+
+                    <Link to="/home">
+                        <button className={estilosAbout.atras}> Atras </button>
+                    </Link>
+                </div>
+            
             <ul>
-                <p className={estilosAbout.txt}>👽 by Adrian Zambrano</p>
-                <img className={estilosAbout.foto} src={fotoAbout} alt="Creador"/>
+                <h2 className= {estilosAbout.txt}>👨‍💻 Developer 👽 Adrian Zambrano</h2>
+                <img className= {estilosAbout.foto} src={fotoAbout} alt="Creador"/>
             </ul>
         </div>
     )

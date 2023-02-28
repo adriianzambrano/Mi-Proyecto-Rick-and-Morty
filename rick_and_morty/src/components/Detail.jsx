@@ -33,11 +33,11 @@ export default function Detail() {
           </Link>
       </div>
         <div className={estilosDetail.txt}>
-            <h1>Nombre: {character.name}</h1>
-            <h3>Estatus: {character.status}</h3>
-            <p>Especie: {character.species}</p>
-            <p>Genero: {character.gender}</p>
-            <p>Origen: {character.origin?.name}</p>
+            <h1> Nombre:  {character.name}</h1>
+            <h2> Estatus:  {character.status}</h2>
+            <h4> Especie:  {character.species}</h4>
+            <h4> Genero:  {character.gender}</h4>
+            <h4> Origen:  {character.origin?.name}</h4>
         </div>
         <img src={character.image} alt={character.name} className={estilosDetail.imagen}></img>
 

@@ -8,11 +8,6 @@ export default function Nav({onSearch}){
     return (
        <div className={estiloNav.navbar}>
 
-            <div className={estiloNav.divBotonHome}>
-                <Link exact to="/">
-                    <button className={estiloNav.btnCerrarSeccion}> Cerrar Seccion </button>
-                </Link>
-            </div>
             <div className={estiloNav.divBotonAbout}>
                 <Link to="/about">
                     <button className={ estiloNav.botonAbout}> About </button>
@@ -20,6 +15,11 @@ export default function Nav({onSearch}){
             </div>
             <div>
                 <SearchBar onSearch={onSearch}/>
+            </div>
+            <div className={estiloNav.divBotonSeccion}>
+                <Link exact to="/">
+                    <button className={estiloNav.btnCerrarSeccion}> Cerrar Seccion </button>
+                </Link>
             </div>
 
        </div>

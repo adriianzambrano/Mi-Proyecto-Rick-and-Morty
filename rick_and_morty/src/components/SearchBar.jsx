@@ -12,9 +12,9 @@ export default function SearchBar({onSearch}) {
    return (
       <div className={estiloSearch.nav}>
 
-         <input type='text' placeholder='Buscar id' className={estiloSearch.input}  onChange={handleChange} value={character}/>
+         <input type='text' placeholder='Buscar Id' className={estiloSearch.input}  onChange={handleChange} value={character}/>
          
-         <button onClick={()=>onSearch(character)} className={estiloSearch.buscar} > Agregar </button>
+         <button onClick={()=>onSearch(character)} className={estiloSearch.buscar} > Buscar </button>
 
       </div>
    );
